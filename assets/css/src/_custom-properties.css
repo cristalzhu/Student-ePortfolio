@@ -1,0 +1,71 @@
+/**
+ * Custom Properties
+ * aka CSS variables.
+ *
+ * @link: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+ **/
+
+:root {
+	--content-width: 45rem;
+	--dropdown-symbol-width: 0.7em;
+
+	/* Typography */
+	--global-font-family: "Open Sans", sans-serif;
+	--header-font-family: "Merriweather", serif;
+	--global-font-size: 20;
+	--global-font-line-height: 1.4;
+
+	/* Custom editor font sizes */
+	--font-size-small: calc(16 / var(--global-font-size) * 1rem);
+	--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);
+	--font-size-large: calc(36 / var(--global-font-size) * 1rem);
+	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
+
+	/* Colors */
+	--global-font-color: #333;
+	--border-color-dark: #333;
+	--border-color-light: #ccc;
+	--color-link: #0073aa;
+	--color-link-visited: #333;
+	--color-link-active: #00a0d2;
+	--color-quote-border: #000;
+	--color-quote-citation: #6c7781;
+	--portfolio-font-color: #012169;
+	--color-link-hover-custom: #0B9BF9;
+
+
+	/* Custom editor colors */
+	--color-theme-primary: #e36d60;
+	--color-theme-secondary: #41848f;
+	--color-theme-red: #c0392b;
+	--color-theme-green: #27ae60;
+	--color-theme-blue: #00539b;
+	--color-theme-yellow: #f1c40f;
+	--color-theme-black: #1c2833;
+	--color-theme-grey: #95a5a6;
+	--color-theme-white: #ecf0f1;
+	--color-custom-daylight: #97c0b7;
+	--color-custom-sun: #eee9d1;
+
+	/* Duke colors */
+	--color-theme-duke-navy-blue: #012169;
+	--color-theme-duke-royal-blue: #00539B;
+	--color-theme-duke-copper: #C84E00;
+	--color-theme-duke-persimmon: #E89923;
+	--color-theme-duke-dandelion: #FFD960;
+	--color-theme-duke-piedmont: #A1B70D;
+	--color-theme-duke-eno: #339898;
+	--color-theme-duke-magnolia:#1D6363; 
+	--color-theme-duke-prussian-blue: #005587;
+	--color-theme-duke-shale-blue: #0577B1;
+	--color-theme-duke-ironweed: #993399;
+	--color-theme-duke-hatteras: #E2E6ED;
+	--color-theme-duke-whisper-gray: #F3F2F1;
+	--color-theme-duke-ginger-beer: #FCF7E5;
+	--color-theme-duke-dogwood: #988675;
+	--color-theme-duke-shackleford: #DAD0C6;
+	--color-theme-duke-cast-iron: #262626;
+	--color-theme-duke-graphite: #666666;
+	--color-theme-duke-granite: #B5B5B5;
+	--color-theme-duke-limestone: #E5E5E5;
+}

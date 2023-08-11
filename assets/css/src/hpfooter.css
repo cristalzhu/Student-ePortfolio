@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Homepage
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import "_custom-properties.css";
+@import "_reset.css";
+@import "_typography.css";
+@import "_elements.css";
+@import "_links.css";
+
+
+#footerhp {
+	margin: 1em 0 0;
+	padding: 2em;
+	font-family: var(--highlight-font-family);
+	font-stretch: condensed;
+	color: #fff;
+	background-color: var(--color-theme-duke-navy-blue);
+}
+
+
+@media (--sidebar-query) {
+	#footerhp {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
+
+#footerhp .leftcol {
+	text-align: left;
+	margin-left: 100px;
+}
+
+
+#footerhp .leftcol a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#footerhp .leftcol a:hover {
+	color: var(--color-link-hover-custom);
+	text-decoration: none;
+}
+
+
+.contact_icons {
+	font-size: 1px;
+	margin: 3px 20px;
+	color: #fff;
+}
+
+#footerhp .fa-envelope {
+	margin-left: 15px;
+}
+
+#footerhp .flip_phone {
+	transform: scaleX(-1);
+	margin-left: 15px;
+}
+
+
+/* #footerhp .rightcol {
+	padding-right: 300px;
+} */
+
+/* .display-form {
+	margin-left: 32em;
+	border-radius: 1em;
+	margin-left: 26em;
+	margin-right: -10em;
+	margin-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #efefef;
+} */
+
+
+input[type=text], input[type=email], textarea {
+	width: 100%;
+	padding-left: 4px;
+	border: 1.5px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	background-color: #fff;
+	resize: vertical;
+}
+
+textarea {
+	height: 180px;	
+}
+
+
+input[type=submit] {
+	background-color: var(--color-theme-duke-royal-blue);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: var(--color-link-hover-custom);
+}
+
+.contact-form {
+	border-radius: 8px;
+	background-color: #fff;
+	padding: 20px;
+	color:black;
+}

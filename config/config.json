@@ -1,0 +1,46 @@
+{
+  "theme": {
+    "slug": "eportfolio",
+    "name": "E-Portfolio - custom WP theme.",
+    "author": "Code+ team 2021",
+    "PHPNamespace": "WP_Rig\\WP_Rig"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "eportfolio.ddev.site",
+      "bypassPort": "8181",
+      "https": true
+    },
+    "styles": {
+      "stage": 3,
+      "autoprefixer": {
+        "grid": false
+      },
+      "importFrom": [
+        "_custom-media.css"
+      ],
+      "features": {
+        "custom-media-queries": true,
+        "custom-properties": true,
+        "nesting-rules": true
+      }
+    },
+    "debug": {
+      "styles": false,
+      "scripts": false,
+      "phpcs": false
+    }
+  },
+  "export": {
+    "compress": true,
+    "generatePotFile": true,
+    "filesToCopy": [
+      "LICENSE",
+      "readme.txt",
+      "screenshot.png",
+      "assets/css/vendor/**/*.css",
+      "assets/js/vendor/**/*.js"
+    ]
+  }
+}

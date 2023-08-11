@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# Archive
+--------------------------------------------------------------*/
+.archive .card {
+	border: solid 2px #fff;
+	color: rgb(38,38,38);
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	/*padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;*/
+	margin-top: 8vh;
+	/*box-sizing: border-box;*/
+	display:flexbox;
+	flex-flow: row wrap;
+	width: 95%;
+	height: 60vh;
+	overflow-y:hidden;
+}
+
+.card img{
+	object-fit: cover;
+
+	height:100%;
+	width:100%;
+	max-width:100%;
+	max-height:100%;
+	display:block;
+	overflow-y:scroll;
+}
+
+.archive-title{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.archive-grid {
+	display: grid;
+	width: 100%;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	grid-gap: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	overflow:hidden;
+  }
+
+a:hover {
+	text-decoration: underline;
+	color:rgb(0, 0, 0);
+	overflow:hidden;
+  }
+
+a:visited {
+	text-decoration: none;
+	overflow:hidden;
+  }
+
+a:active {
+	text-decoration: underline;
+	overflow:hidden;
+  }

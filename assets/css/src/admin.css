@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+# Admin UI
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import "_custom-properties.css";
+@import "_reset.css";
+@import "_typography.css";
+@import "_elements.css";
+@import "_links.css";
+
+body.login {
+	padding: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+
+.login form {
+	border: 2px solid #ECECEC;
+	border-radius: 26px;
+	font-family: var(--global-font-family);
+}
+
+.login form .input,
+.login input[type=password], 
+.login input[type=text] {
+	border-radius: 24px;
+	border: solid 1px #d8d8d8;
+	font-family: var(--global-font-family);
+	padding: 2px 10px;
+	font-size: 12px;
+}
+
+.login form .forgetmenot {
+	float: none;
+}
+
+#login form p.submit {
+	display: block;
+	width: 100%;
+}
+
+.wp-core-ui .button-secondary:hover,
+.wp-core-ui .button.hover,
+.wp-core-ui .button:hover {
+	background: #f0f0f1;
+	border-color: var(--color-theme-blue);
+	color: var(--color-theme-blue);
+}
+
+.wp-core-ui .button-group.button-large .button,
+.wp-core-ui .button.button-large {
+	border-radius: 24px;
+	background-color: var(--color-theme-blue);
+	float: none;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.weltitle {
+	text-align: center;
+	color: var(--portfolio-font-color);
+	font-family: var(--global-font-family);
+	font-size: var(--font-size-large);
+	white-space: nowrap;
+
+}
